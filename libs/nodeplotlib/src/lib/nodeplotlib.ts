@@ -62,7 +62,7 @@ async function bootstrap(port: number) {
     `http://localhost:${actualPort}`
   );
 
-  shutdownSubscription = bridgeService.shutdown$.subscribe(shutdown);
+  //shutdownSubscription = bridgeService.shutdown$.subscribe(shutdown);
 }
 
 async function shutdown() {
